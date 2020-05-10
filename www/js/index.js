@@ -40,7 +40,8 @@ function onOffline() {
 }
 
 function openBrowser() {
-   var url = 'http://b2c.kser.in/';
+   //var url = 'http://b2c.kser.in/';
+   var url = 'http://f2r.kser.in/';
    var target = '_blank';
    var options = "location=no,toolbar=no"
    var ref = cordova.InAppBrowser.open(url, target, options);
